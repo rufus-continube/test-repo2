@@ -1,0 +1,14 @@
+name: Always Pass Check
+
+on:
+  pull_request:
+    branches:
+      - main  # Adjust this to the branch you want to target
+
+jobs:
+  always-pass:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Always pass
+        run: echo "This check will always pass!"
