@@ -1,3 +1,3 @@
 # test-repo2
 test
-change 2
+change 2 new
